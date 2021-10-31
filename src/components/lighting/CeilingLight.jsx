@@ -3,7 +3,13 @@ import React from "react";
 
 const CeilingLight = ({ position }) => {
   return (
-    <pointLight position={position} color="white" intensity={1} castShadow />
+    <pointLight
+      position={position}
+      color="white"
+      intensity={100000}
+      castShadow
+      decay={2}
+    />
   );
 };
 
