@@ -1,4 +1,5 @@
 import React from "react";
+import CeilingLight from "../lighting/CeilingLight";
 import Wall from "./Wall";
 
 const Room = () => {
@@ -56,6 +57,7 @@ const Room = () => {
         position={[-(357 / 2 - 147 / 2), 0, 386 + 10]}
         rotation={0}
       />
+      <CeilingLight position={[-(147 / 2 + 10), 209, 128 + 79 + 30]} />
     </>
   );
 };
